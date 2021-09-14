@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-24T04:26:02 IST" name="Default suite" finished-at="2021-08-24T04:26:55 IST" duration-ms="53070">
+    <groups>
+    </groups>
+    <test started-at="2021-08-24T04:26:02 IST" name="Default test" finished-at="2021-08-24T04:26:55 IST" duration-ms="53070">
+      <class name="com.crm.qa.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:02 IST" name="setup" finished-at="2021-08-24T04:26:14 IST" duration-ms="11953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLandingPageLogo()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:14 IST" name="testLandingPageLogo" finished-at="2021-08-24T04:26:14 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLandingPageLogo -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:14 IST" name="setup" finished-at="2021-08-24T04:26:25 IST" duration-ms="11588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginButton()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:25 IST" name="testLoginButton" finished-at="2021-08-24T04:26:29 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:29 IST" name="setup" finished-at="2021-08-24T04:26:41 IST" duration-ms="12722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignup()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:41 IST" name="testSignup" finished-at="2021-08-24T04:26:45 IST" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:45 IST" name="setup" finished-at="2021-08-24T04:26:55 IST" duration-ms="9370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTitle()[pri:0, instance:com.crm.qa.testcases.LandingPageTest@4944252c]" started-at="2021-08-24T04:26:55 IST" name="testTitle" finished-at="2021-08-24T04:26:55 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+      </class> <!-- com.crm.qa.testcases.LandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
