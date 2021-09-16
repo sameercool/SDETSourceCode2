@@ -6,11 +6,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CssTagClass
 {
-    public static void main(final String[] args) {
+    public static void main( String[] args) {
         System.setProperty("webdriver.chrome.driver", "D:\\selenium components\\chromedriver.exe");
-        final ChromeDriver driver = new ChromeDriver();
+         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com");
-        final WebElement e2 = driver.findElement(By.cssSelector("input.inputtext"));
-        e2.sendKeys(new CharSequence[] { "sameersameer638@gmail.com" });
-    }
+        //tag & class
+         WebElement e2 = driver.findElement(By.cssSelector("input.inputtext"));
+        e2.sendKeys("sameersameer638@gmail.com");
+    }   
 }

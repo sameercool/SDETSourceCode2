@@ -1,18 +1,15 @@
 package SeleniumDemo1;
 
-
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Css1
-{
-    public static void main( String[] args) {
+public class LocatorsPartialLinkText {
+	public static void main( String[] args) {
         System.setProperty("webdriver.chrome.driver", "D:\\selenium components\\chromedriver.exe");
          ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.facebook.com");
-        //tag & ID
-         WebElement e1 = driver.findElement(By.cssSelector("input#email"));
-        e1.sendKeys("sameersameer638@gmail.com");
+         WebElement  e1= driver.findElement(By.partialLinkText("Forgotten"));
+       e1.click();
     }
 }

@@ -10,6 +10,6 @@ public class GetTitle1
         driver.get("http://www.gmail.com");
         final String title = driver.getTitle();
         System.out.println(title);
-        driver.quit();
+        driver.close();
     }
 }
