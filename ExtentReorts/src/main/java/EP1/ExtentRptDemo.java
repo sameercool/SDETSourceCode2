@@ -13,6 +13,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 public class ExtentRptDemo {
+	//extent work
 private static final WebDriver driver=null;
 	public static void main(String[] args) {
 //to create extent report we use the ExtentHtmlReporter class
